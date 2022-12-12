@@ -1,0 +1,68 @@
+body{
+    background-image: url(./png/pexels-deva-darshan-1044330.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.jst{
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    height: 400px;
+   background-color: rgb(106, 116, 211);
+   margin-top: 250px;
+   width: 24%;
+   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+   position: relative;
+}
+.result_div{
+    background: rgb(187, 182, 182);
+    width: 100px;
+    height: 40px;
+    opacity: 50%;
+    margin-left: 15px;
+}
+.col-md-6{
+    width: 50%;
+}
+button{
+    background: rgba(32, 2, 22, 0.7);
+    margin: 2px;
+    margin-top: 45px;
+    width: 30%;
+    background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+}
+.fill:hover {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+.rel{
+    position: absolute;
+}
+.pos1{
+left: 5px;
+top: 55px;
+}
+.pos2{
+    left: 5px;
+    top: 5px;
+    }
+.pos3{
+    left: 235px;
+    top: 30px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+#result{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(1, 9, 17);
+}
+input{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    color: rgb(112, 15, 23);
+}
